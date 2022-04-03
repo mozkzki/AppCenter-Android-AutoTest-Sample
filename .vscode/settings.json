@@ -1,0 +1,6 @@
+{
+  "editor.tabSize": 2,
+  "java.checkstyle.configuration": "/google_checks.xml",
+  "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
