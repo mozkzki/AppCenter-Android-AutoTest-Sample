@@ -37,6 +37,8 @@ MacBook Air 2020 M1 で確認。
 
 ## ローカルでのテスト実行
 
+AppCenterで動かす前にローカルで確認すること。
+
 1. <details><summary>エミュレーター起動</summary><div>
 
     - Android Studio の Device Managerから (下記UI)
@@ -69,6 +71,9 @@ MacBook Air 2020 M1 で確認。
 
 ## AppCenterでの実行方法
 
+1箇所コード修正が必要なので注意。下記をコメントアウトする。
+`desiredCapabilities.setCapability("appium:app", .....`
+
 1. (loginしてなければ) `appcenter login` を実行
 2. `run` タスクを実行
     - ![run_menu](./doc/run_menu.png)
@@ -88,7 +93,7 @@ MacBook Air 2020 M1 で確認。
     appcenter test run appium --app "hoge-mozkzki/FirstTestApp" --devices "hoge-mozkzki/test-set-android-1" --app-path ./ApiDemos-debug.apk --test-series "master" --locale "ja_JP" --build-dir target/upload
     ```
 
-※ --app, --devices, --test-series, --locale 等は予めAppCenterのUIで作成が必要
+    ※ --app, --devices, --test-series, --locale 等は予めAppCenterのUIで作成が必要
 </div></details>
 
 ## 要素名の確認方法
