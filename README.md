@@ -71,8 +71,8 @@ MacBook Air 2020 M1 で確認。
 
 1. (loginしてなければ) `appcenter login` を実行
 2. `run` タスクを実行
-    ![run_menu](./doc/run_menu.png)
-    ![run_command](./doc/run_command.png)
+    - ![run_menu](./doc/run_menu.png)
+    - ![run_command](./doc/run_command.png)
 
 <details><summary>参考：runタスクの中身</summary><div>
 
