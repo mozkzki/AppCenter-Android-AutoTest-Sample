@@ -16,6 +16,7 @@ MacBook Air 2020 M1 で確認。
 | [Appium Inspector](https://github.com/appium/appium-inspector/releases) | 2022.2.1 | 実行には不要。要素名確認等に使う。|
 | VSCode plugin : Extension Pack for Java | 0.22.2 |
 | [AppCenter CLI](https://docs.microsoft.com/ja-jp/appcenter/cli/) | 2.10.8 | nodeが必要。`npm install -g appcenter-cli` |
+| Maven | 3.8.5 |
 
 ### Install
 

@@ -38,7 +38,8 @@ public class AndroidTest {
     // ローカル実行する場合、この中だけコメントアウトすること
     desiredCapabilities.setCapability("appium:app",
         // 絶対パス必須
-        "/Users/yutaka/src/temp/appium-test/maven-test/demo/ApiDemos-debug.apk");
+        "/Users/katouyutaka/ghq/github.com/mozkzki/AppCenter-Android-AutoTest-Sample/ApiDemos-debug.apk");
+    // "/Users/yutaka/src/temp/appium-test/maven-test/demo/ApiDemos-debug.apk");
     // ==============================================================
 
     // 下記はAppCenter側で指定されるため、ここに指定するとエラーになる（コメントはずさないこと）
